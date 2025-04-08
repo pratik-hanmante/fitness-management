@@ -38,9 +38,7 @@ public class User {
     @Column(nullable = false)
     private String password;
 
-    /**
-     * User's first name.
-     */
+
     private String firstName;
 
     /**
