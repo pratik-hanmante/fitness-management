@@ -8,7 +8,7 @@ import org.hibernate.annotations.UpdateTimestamp;
 import java.time.LocalDateTime;
 
 /**
- * Maps to the "users" table in the database.
+ * Maps to the "users" table in db
  */
 @Entity
 @Table(name = "users")
