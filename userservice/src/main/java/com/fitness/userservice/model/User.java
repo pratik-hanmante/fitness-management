@@ -7,10 +7,16 @@ import org.hibernate.annotations.UpdateTimestamp;
 
 import java.time.LocalDateTime;
 
+<<<<<<< HEAD
 
+=======
+/**
+ * Maps to the "users" table in db
+ */
+>>>>>>> c00b3c167b98265f45429dfac10583d52c8dfd20
 @Entity
 @Table(name = "users")
-@Data // Lombok annotation to generate getters, setters, toString, equals, and hashCode
+@Data // Lombok annotation to generate getters, setters, toString, equals
 public class User {
 
     /**
