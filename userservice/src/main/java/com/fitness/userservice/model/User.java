@@ -28,7 +28,7 @@ public class User {
     private String id;
 
     /**
-     * User's email address.
+     * User's email address
      * Must be unique and cannot be null.
      */
     @Column(unique = true, nullable = false)
